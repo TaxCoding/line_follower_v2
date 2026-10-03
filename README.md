@@ -1,7 +1,7 @@
 # Firmware Line Follower Robot V2
 
 Dokumentasi teknis kontroler robot pengikut garis berbasis mikrokontroler Arduino Nano, driver motor L298N, dan 6 sensor analog linier[cite: 2]. Sistem mengimplementasikan kendali PID berbasis titik berat (*center of mass*) dengan optimasi pembacaan ADC pada tingkat register.
-![Lintasan Line Follower](Media/lf_basic.jpeg)[cite: 1]
+<img src="Media/lintasan.jpeg" alt="Lintasan Line Follower" width="350">
 
 ## Fitur Sistem
 * **Algoritma PID Kontinu**: Perhitungan posisi garis (-2500 hingga +2500) menggunakan weighted average.
@@ -11,7 +11,7 @@ Dokumentasi teknis kontroler robot pengikut garis berbasis mikrokontroler Arduin
 * **Antarmuka LCD 16x2 & Button**: Navigasi mode kerja (Jalan, Kalibrasi, Tes Sensor)
 
 ## Alokasi Pin Mikrokontroler
-![Robot Line Follower](Media/lf_basic.jpeg)[cite: 2]
+<img src="Media/lf_basic.jpeg" alt="Robot Line Follower" width="350">
 
 | Komponen | Pin Arduino | Deskripsi / Sinyal |
 | :--- | :--- | :--- |
